@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!-- saved from url=(0832)https://hotels.wixapps.net/search-widget.html?cacheKiller=1517682465261&compId=hzi591ja&deviceType=desktop&height=89&instance=eXS_8nr5flwMWZdTGznwsBRK-WrD2gWGFJ2Xq__PAso.eyJpbnN0YW5jZUlkIjoiNWE4NmMzY2EtNDE2OC00MDUyLWE3OTgtZmMxOTRjODk4MzcyIiwiYXBwRGVmSWQiOiIxMzVhYWQ4Ni05MTI1LTYwNzQtNzM0Ni0yOWRjNmEzYzliY2YiLCJzaWduRGF0ZSI6IjIwMTgtMDItMDNUMTg6Mjc6MzkuNzE3WiIsInVpZCI6bnVsbCwiaXBBbmRQb3J0IjoiODguOC41Ni4zNi80NjYwOCIsInZlbmRvclByb2R1Y3RJZCI6bnVsbCwiZGVtb01vZGUiOmZhbHNlLCJvcmlnaW5JbnN0YW5jZUlkIjoiMTNlMWI4MGEtZjJjMS05NmM1LWE3NTEtM2E0MDgwMTk5NWI1IiwiYWlkIjoiYWFmZTVjZjQtZGE1NC00NmE0LWIxZGUtMDkxYzQ1NjcyNjdhIiwiYmlUb2tlbiI6IjU1MjdhY2MxLTE2MWItMDdlMy0wNDcwLTQ1NWYwYTJmYzQ2MCIsInNpdGVPd25lcklkIjoiZTdjZDE5ODctN2QzOC00NmZmLWEyMjQtYmQ0YzkxNjVkMThkIn0&locale=es&pageId=mainPage&viewMode=site&vsi=af000bc0-42de-4ce5-9f7a-9245e1076ccb&width=980 -->
+<html ng-app="searchWidget" class="ng-scope" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    
+    <!--<base target="_parent">--><base href="." target="_parent">
+    <!--<base href="https://static.parastorage.com/services/hotels-statics/1.597.0/">--><base href="." target="_parent">
+    <title>Search Widget</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!--  -->
+<link rel="stylesheet" href="./search-widget.css">
+<!--  -->
+
+    <script type="text/javascript" src="./c99d7f1ab0"></script><script src="./nr-963.min.js.descarga"></script><script type="text/javascript" async="" src="./mixpanel-2-latest.min.js.descarga"></script><script type="text/javascript">
+  (function () {
+    var appName = window.fedopsAppName = 'hotels-statics-search-widget';
+    window.fedops = window.fedops || {};
+    window.fedops.apps = window.fedops.apps || {};
+    window.fedops.apps[appName] = { startLoadTime: window.performance && window.performance.now && window.performance.now() };
+    try { window.fedops.sessionId = window.localStorage.getItem('fedops.logger.sessionId'); } catch(e) {};
+    window.fedops.sessionId = window.fedops.sessionId || 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) { var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8); return v.toString(16); });
+    (new Image()).src = '//frog.wix.com/fed?appName=' + appName + '&src=72&evid=14&session_id=' + window.fedops.sessionId;
+  })();
+</script>
+
+
+    <!-- Included as soon as possible to collect as much data as possible. -->
+<script type="text/javascript">
+window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"c99d7f1ab0",applicationID:"6197022",sa:1}
+</script>
+
+<script src="./jquery-1.12.4.min.js.descarga" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./wix.min.js.descarga"></script>
+
+<script type="text/javascript">
+  // hack for rewriting URL from index.html/rooms?param=x to index.html/rooms?param=x#/rooms?param=x
+  (function() {
+    var currentUrl = document.URL;
+    var regex = /(.*\.html)\/(.*)/gi;
+    var match = regex.exec(currentUrl);
+    if (match && match[2]) {
+      var args = match[2].replace(/#.*$/, '');
+      args = args.replace(/&?cacheKiller.*$/, '');
+      args = args.replace(/&?compId.*$/, ''); // after Santa the order of arguments changed
+      window.location.hash = '/' + args;
+    }
+  })();
+</script>
+
+<style wix-style="" ng-non-bindable="">
+  :focus {
+    outline: 0;
+  }
+  body {
+    font-family: 'Open Sans';
+    style.descriptionFont;
+    line-height: normal;
+    font-size: 16px;
+  }
+  button {
+    font-family: 'Open Sans';
+    style.descriptionFont;
+    line-height: 1;
+  }
+  body, button {
+    color: rgba(224,212,190,1);
+  }
+  .s-description, .s-description:hover {
+    fill: rgba(224,212,190,1) !important;
+    color: rgba(224,212,190,1) !important;
+  }
+  .s-description-font {
+    font-family: 'Open Sans';
+    style.descriptionFont !important;
+  }
+  .amenities {
+    fill: #000;
+    stroke: #000;
+    fill: rgba(224,212,190,1);
+    stroke: rgba(224,212,190,1);
+  }
+
+  .calendar-button {
+    fill: rgba(96,5,5,1);
+    stroke: rgba(96,5,5,1) !important;
+  }
+  .s-background {
+    background-color: rgba(58,4,4,1) !important;
+  }
+  .s-background2 {
+    background-color: #E0D4BE !important;
+  }
+  .s-button {
+    fill: rgba(242,239,233,1);
+    background-color: rgba(221,151,75,1) !important;
+    color: rgba(242,239,233,1) !important;
+  }
+  .s-button-color {
+    color: rgba(221,151,75,1) !important;
+    fill: rgba(221,151,75,1);
+    stroke: rgba(221,151,75,1);
+  }
+  .s-button-inverse {
+    background-color: rgba(242,239,233,1) !important;
+    color: rgba(221,151,75,1) !important;
+    border: 1px solid rgba(221,151,75,1) !important;
+  }
+  .s-separator, .s-separator-after:after, .s-separator-before:before {
+    border-color: rgba(221,151,75,0.01639344262295082) !important;
+  }
+  .s-title {
+    color: rgba(221,151,75,1) !important;
+    fill: rgba(221,151,75,1) !important;
+    font-family: 'Open Sans';
+    style.titleFont;
+    line-height: normal;
+  }
+  a:hover {
+    color: rgba(221,151,75,1) !important;
+  }
+  .s-field {
+    color: rgba(96,5,5,1) !important;
+    background-color: #FFFFFF !important;
+  }
+</style>
+
+<script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+  for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+</script>
+
+    <style wix-style="" ng-non-bindable="">
+      .spinner a[ng-click]::after {
+        border-bottom-color: rgba(96,5,5,1) !important;
+        border-top-color: rgba(96,5,5,1)  !important;
+      }
+      .spinner a[ng-click]:not([disabled]):hover {
+        background-color: rgba(96,5,5,1) !important;
+      }
+      .spinner a[ng-click]:not([disabled]):hover::after {
+        border-bottom-color: #FFFFFF !important;
+        border-top-color: #FFFFFF !important;
+      }
+
+      [wix-date-picker] {
+        fill: rgba(96,5,5,1);
+        stroke: rgba(96,5,5,1);
+      }
+
+    </style>
+
+  <style id="fedops-logger-angular.stylable.bundle.css"></style><style wix-style="">.Title{ font:normal normal normal 42px/1.2em niconne,fantasy; } .Menu{ font:normal normal normal 14px/1.2em "open sans",sans-serif; } .Page-title{ font:normal normal normal 32px/1.2em "open sans",sans-serif; } .Heading-XL{ font:normal normal normal 60px/1.2em "open sans",sans-serif; } .Heading-L{ font:normal normal normal 40px/1.2em "open sans",sans-serif; } .Heading-M{ font:normal normal normal 26px/1.2em "open sans",sans-serif; } .Heading-S{ font:normal normal normal 20px/1.2em "open sans",sans-serif; } .Body-L{ font:normal normal normal 16px/1.2em "open sans",sans-serif; } .Body-M{ font:normal normal normal 12px/1.2em verdana,geneva,sans-serif; } .Body-S{ font:normal normal normal 12px/1.2em "open sans",sans-serif; } .Body-XS{ font:normal normal normal 10px/1.2em "open sans",sans-serif; } }</style><link type="text/css" rel="stylesheet" href="./css(1)" id="wix-google-fonts"><link type="text/css" rel="stylesheet" href="./languages.css"></head>
+  <body>
+    <div class="icons" style="display:none;">
+      <svg xmlns="http://www.w3.org/2000/svg"><symbol viewBox="-495 320.9 200 200" id="calendar"><title>calendar</title> <style type="text/css"> .st0{display:none;} .st1{display:inline;} .st2{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st3{} .st4{fill:none;stroke-linejoin:round;stroke-miterlimit:10;} .st5{fill:#FFFFFF;stroke-linejoin:round;stroke-miterlimit:10;} .st6{fill:none;stroke-linecap:round;stroke-linejoin:round;} .st7{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.5671,2.2685;} .st8{fill:none;stroke-width:11;stroke-miterlimit:10;} .st9{fill:none;stroke-width:11;stroke-linecap:round;stroke-miterlimit:10;} </style> <g id="svgstore92fe1316c6d20206271995a1baf2428bwifi" class="st0"> <g class="st1"> <path class="st2" d="M-301,357.9c-28-14-60-23-94-23s-66,8-94,23"></path> <path class="st2" d="M-332,404.9c-19-10-40-15-63-15s-44,6-63,15"></path> <path class="st2" d="M-364,450.9c-9-5-20-8-31-8s-22,3-31,8"></path> <path class="st3" d="M-387,495.9c-2-1-5-2-8-2s-5,1-8,2c-4,2-6,7-6,11c0,8,6,14,14,14s14-6,14-14C-381,502.9-384,498.9-387,495.9z
+			"></path> </g> </g> <g id="svgstore92fe1316c6d20206271995a1baf2428bkitchen" class="st0"> <g class="st1"> <g> <path class="st4" d="M-316,452.9"></path> <path class="st2" d="M-320,514.9v-154v-33c-25,7-36,55-36,102h36"></path> </g> <g> <g> <path class="st2" d="M-419,327.9v36c0,25,1,39-23,39h-16c-24,0-22-13-22-38v-37"></path> </g> <path class="st2" d="M-465,324.9"></path> <path class="st2" d="M-465,376.9"></path> <path class="st2" d="M-444,324.9"></path> <path class="st2" d="M-444,376.9"></path> <line class="st2" x1="-450" y1="514.9" x2="-450" y2="327.9"></line> <path class="st2" d="M-410,366.9"></path> <path class="st2" d="M-489,366.9"></path> </g> </g> </g> <g id="svgstore92fe1316c6d20206271995a1baf2428bphone" class="st0"> <g class="st1"> <path class="st4" d="M-433,394.9l22-22c2-2,2-5,0-8l-35-34c-4-4-11-4-15,0l-15,14c-20,20-17,49,2,69l84,84c20,20,49,22,69,2l18-18
+			c2-2,2-5,0-8l-42-41c-2-2-5-2-8,0l-22,22L-433,394.9z"></path> </g> </g> <g id="svgstore92fe1316c6d20206271995a1baf2428btv" class="st0"> <g class="st1"> <g> <path class="st4" d="M-313,514.9h-164c-6,0-10-4-10-10v-123c0-5,4-10,10-10h165c5,0,10,5,10,10v123
+				C-303,510.9-307,514.9-313,514.9z"></path> <path class="st4" d="M-346,483.9h-98c-6,0-10-5-10-10v-61c0-5,4-10,10-10h98c6,0,10,5,10,10v61C-336,479.9-341,483.9-346,483.9z"></path> <g> <line class="st2" x1="-411" y1="371.9" x2="-447" y2="326.9"></line> <line class="st2" x1="-343" y1="326.9" x2="-379" y2="371.9"></line> </g> </g> </g> </g> <g id="svgstore92fe1316c6d20206271995a1baf2428bsmoking" class="st0"> <g class="st1"> <path class="st2" d="M-306,514.9h-178c-3,0-5-2-5-5v-31c0-3,2-5,5-5h178c3,0,5,2,5,5v31C-301,512.9-303,514.9-306,514.9z"></path> <line class="st2" x1="-336" y1="474.9" x2="-336" y2="514.9"></line> <g> <path class="st4" d="M-316,439.9c-32,0,32-60,0-60"></path> <path class="st4" d="M-335,395.9c-32,0,32-60,0-60"></path> </g> </g> </g> <g id="svgstore92fe1316c6d20206271995a1baf2428bmini_bar" class="st0"> <g class="st1"> <line class="st4" x1="-429" y1="455.9" x2="-461" y2="455.9"></line> <line class="st4" x1="-429" y1="482.9" x2="-461" y2="482.9"></line> <path class="st4" d="M-461,341.9v52c0,23-24,21-24,49v65c0,9,8,7,17,7h45c9,0,17,2,17-7v-65c0-28-24-26-24-49v-52H-461z"></path> <path class="st3" d="M-442,354.9h-7c-3,0-5-2-5-5v-22c0-3,2-5,5-5h7c3,0,5,2,5,5v22C-437,352.9-439,354.9-442,354.9z"></path> </g> <g class="st1"> <g> <line class="st4" x1="-344" y1="466.9" x2="-344" y2="514.9"></line> <line class="st4" x1="-367" y1="514.9" x2="-321" y2="514.9"></line> </g> <path class="st5" d="M-343,468.9c21,0,39-17,39-39s-8-36-8-36h-61c0,0-8,14-8,36S-365,468.9-343,468.9L-343,468.9z"></path> <line class="st4" x1="-381" y1="424.9" x2="-306" y2="424.9"></line> </g> </g> <g id="svgstore92fe1316c6d20206271995a1baf2428bshower" class="st0"> <g class="st1"> <g> <path class="st2" d="M-465,512.9v-143c0-23,19-42,42-42s42,19,42,42"></path> </g> <path class="st2" d="M-330,411.9v-10c0-18-15-33-33-33h-28c-18,0-33,15-33,33v10l-14,12v15h120v-15L-330,411.9z"></path> <g> <g> <line class="st6" x1="-418" y1="456.9" x2="-418" y2="459.9"></line> <line class="st7" x1="-418" y1="482.9" x2="-418" y2="499.9"></line> <line class="st6" x1="-418" y1="510.9" x2="-418" y2="512.9"></line> </g> </g> <g> <g> <line class="st6" x1="-390" y1="456.9" x2="-390" y2="459.9"></line> <line class="st7" x1="-390" y1="482.9" x2="-390" y2="499.9"></line> <line class="st6" x1="-390" y1="510.9" x2="-390" y2="512.9"></line> </g> </g> <g> <g> <line class="st6" x1="-363" y1="456.9" x2="-363" y2="459.9"></line> <line class="st7" x1="-363" y1="482.9" x2="-363" y2="499.9"></line> <line class="st6" x1="-363" y1="510.9" x2="-363" y2="512.9"></line> </g> </g> <g> <g> <line class="st6" x1="-336" y1="456.9" x2="-336" y2="459.9"></line> <line class="st7" x1="-336" y1="482.9" x2="-336" y2="499.9"></line> <line class="st6" x1="-336" y1="510.9" x2="-336" y2="512.9"></line> </g> </g> </g> </g> <g id="svgstore92fe1316c6d20206271995a1baf2428bLayer_9" class="st0"> <g class="st1"> <g> <line class="st2" x1="-439" y1="494.9" x2="-452" y2="513.9"></line> </g> <path class="st2" d="M-395,405.9h-92c0,0,0,5,0,11s5,11,11,11h4c0,30,2,67,47,67h29"></path> <g> <line class="st2" x1="-351" y1="494.9" x2="-338" y2="513.9"></line> </g> <path class="st2" d="M-395,405.9h92c0,0,0,5,0,11s-5,11-11,11h-4c0,30-2,67-47,67h-29"></path> <g> <path class="st2" d="M-446,405.9v-52c0-10,8-17,17-17s17,8,17,17"></path> </g> </g> </g> <g id="svgstore92fe1316c6d20206271995a1baf2428bwork" class="st0"> <g class="st1"> <path class="st2" d="M-488,511.9v-176c0-5,4-9,9-9h167c5,0,9,4,9,9v176"></path> <path class="st4" d="M-437,404.9v-78h126c5,0,9,4,9,9v69H-437z"></path> <path class="st3" d="M-363,355.9c-2-1-4-2-7-2s-5,1-6,2c-3,2-5,6-5,10c0,7,5,12,12,12s12-5,12-12C-358,361.9-360,357.9-363,355.9z
+			"></path> </g> </g> <g id="svgstore92fe1316c6d20206271995a1baf2428btowels" class="st0"> <g class="st1"> <g> <line class="st2" x1="-358" y1="357.9" x2="-301" y2="357.9"></line> </g> <g> <line class="st2" x1="-489" y1="357.9" x2="-460" y2="357.9"></line> </g> <path class="st2" d="M-358,467.9v-123c0-9,7-16,16-16s16,7,16,16v168h-111v-44"></path> <path class="st2" d="M-460,467.9v-123c0-9,7-16,16-16"></path> <line class="st4" x1="-443" y1="327.9" x2="-342" y2="327.9"></line> <line class="st4" x1="-358" y1="467.9" x2="-460" y2="467.9"></line> <line class="st4" x1="-460" y1="440.9" x2="-358" y2="440.9"></line> </g> </g> <path class="st8" d="M-318.6,514.7h-152.8c-7.7,0-14-6.3-14-14V354.1c0-7.7,6.3-14,14-14h152.8c7.7,0,14,6.3,14,14v146.6
+	C-304.6,508.4-310.9,514.7-318.6,514.7z"></path> <line class="st8" x1="-485.4" y1="387.9" x2="-304.6" y2="387.9"></line> <line class="st9" x1="-451.1" y1="326.8" x2="-451.1" y2="353.4"></line> <line class="st9" x1="-338.9" y1="326.8" x2="-338.9" y2="353.4"></line> </symbol></svg>    </div>
+
+    <!-- Add your site or application content here -->
+    <div ng-controller="SearchWidgetCtrl" class="ng-scope">
+      <!-- ngIf: $root.languageResolved --><!-- ngInclude: 'views/search-widget.html' --><div class="search-widget ng-scope" ng-include="&#39;views/search-widget.html&#39;" ng-if="$root.languageResolved">
+<div id="search-widget" ng-controller="WidgetCtrl" ng-class="{&#39;no-children&#39;: !settings.showChildren, &#39;show-all&#39;: settings.showChildren}" class="s-background ng-scope show-all" wix-bi="VIEW" wix-bi-event="init">
+  <form name="search_form" novalidate="" class="ng-pristine ng-valid">
+    <ul class="elements" role="presentation">
+      <li class="title s-separator" role="presentation">
+        <h2 class="s-title widget-title" stranslate="widget.TITLE"><span class="strans">Haz Tu Reserva</span></h2>
+      </li>
+      <li class="check-in" role="presentation">
+        <label id="check-in-label" for="check-in" stranslate="widget.CHECK_IN"><span class="strans">Entrada</span></label>
+        <button wix-date-picker="" bi="SET_CHECK_IN" tabindex="0" type="button" ng-model="filters.checkIn" id="check-in" after="1517686066064" mark="markCheckin" trigger-on="[[&#39;open-checkin&#39;, &#39;click&#39;], [&#39;focus:check_in&#39;, &#39;focus&#39;]]" trigger-bubble="" name="check_in" class="s-field s-separator ng-pristine ng-untouched ng-valid ng-isolate-scope ng-empty" aria-labelledby="check-in-label" aria-describedby="check-in-value" aria-expanded="false">
+          <wix-svg icon="calendar" class="icon"><svg viewBox="0 0 200 200"><use xlink:href="https://hotels.wixapps.net/search-widget.html?cacheKiller=1517682465261&amp;compId=hzi591ja&amp;deviceType=desktop&amp;height=89&amp;instance=eXS_8nr5flwMWZdTGznwsBRK-WrD2gWGFJ2Xq__PAso.eyJpbnN0YW5jZUlkIjoiNWE4NmMzY2EtNDE2OC00MDUyLWE3OTgtZmMxOTRjODk4MzcyIiwiYXBwRGVmSWQiOiIxMzVhYWQ4Ni05MTI1LTYwNzQtNzM0Ni0yOWRjNmEzYzliY2YiLCJzaWduRGF0ZSI6IjIwMTgtMDItMDNUMTg6Mjc6MzkuNzE3WiIsInVpZCI6bnVsbCwiaXBBbmRQb3J0IjoiODguOC41Ni4zNi80NjYwOCIsInZlbmRvclByb2R1Y3RJZCI6bnVsbCwiZGVtb01vZGUiOmZhbHNlLCJvcmlnaW5JbnN0YW5jZUlkIjoiMTNlMWI4MGEtZjJjMS05NmM1LWE3NTEtM2E0MDgwMTk5NWI1IiwiYWlkIjoiYWFmZTVjZjQtZGE1NC00NmE0LWIxZGUtMDkxYzQ1NjcyNjdhIiwiYmlUb2tlbiI6IjU1MjdhY2MxLTE2MWItMDdlMy0wNDcwLTQ1NWYwYTJmYzQ2MCIsInNpdGVPd25lcklkIjoiZTdjZDE5ODctN2QzOC00NmZmLWEyMjQtYmQ0YzkxNjVkMThkIn0&amp;locale=es&amp;pageId=mainPage&amp;viewMode=site&amp;vsi=af000bc0-42de-4ce5-9f7a-9245e1076ccb&amp;width=980#calendar"></use></svg></wix-svg>
+          <span id="check-in-value" class="ng-binding"></span>
+          <span translate="DD MM YYYY" ng-show="!filters.checkIn" class="ng-scope">DD MM YYYY</span>
+        </button>
+      </li>
+      <li class="check-out" role="presentation">
+        <label id="check-out-label" for="check-out" stranslate="widget.CHECK_OUT"><span class="strans">Salida</span></label>
+        <button wix-date-picker="" bi="SET_CHECK_OUT" tabindex="0" type="button" ng-model="filters.checkOut" id="check-out" mark="markCheckout" after="1517702400000" trigger-on="[[&#39;check-in-selected&#39;, &#39;click&#39;], [&#39;focus:check_out&#39;, &#39;focus&#39;]]" trigger-bubble="" name="check_out" class="s-field s-separator ng-pristine ng-untouched ng-valid ng-isolate-scope ng-empty" aria-labelledby="check-out-label" aria-describedby="check-out-value" aria-expanded="false">
+          <wix-svg icon="calendar" class="icon"><svg viewBox="0 0 200 200"><use xlink:href="https://hotels.wixapps.net/search-widget.html?cacheKiller=1517682465261&amp;compId=hzi591ja&amp;deviceType=desktop&amp;height=89&amp;instance=eXS_8nr5flwMWZdTGznwsBRK-WrD2gWGFJ2Xq__PAso.eyJpbnN0YW5jZUlkIjoiNWE4NmMzY2EtNDE2OC00MDUyLWE3OTgtZmMxOTRjODk4MzcyIiwiYXBwRGVmSWQiOiIxMzVhYWQ4Ni05MTI1LTYwNzQtNzM0Ni0yOWRjNmEzYzliY2YiLCJzaWduRGF0ZSI6IjIwMTgtMDItMDNUMTg6Mjc6MzkuNzE3WiIsInVpZCI6bnVsbCwiaXBBbmRQb3J0IjoiODguOC41Ni4zNi80NjYwOCIsInZlbmRvclByb2R1Y3RJZCI6bnVsbCwiZGVtb01vZGUiOmZhbHNlLCJvcmlnaW5JbnN0YW5jZUlkIjoiMTNlMWI4MGEtZjJjMS05NmM1LWE3NTEtM2E0MDgwMTk5NWI1IiwiYWlkIjoiYWFmZTVjZjQtZGE1NC00NmE0LWIxZGUtMDkxYzQ1NjcyNjdhIiwiYmlUb2tlbiI6IjU1MjdhY2MxLTE2MWItMDdlMy0wNDcwLTQ1NWYwYTJmYzQ2MCIsInNpdGVPd25lcklkIjoiZTdjZDE5ODctN2QzOC00NmZmLWEyMjQtYmQ0YzkxNjVkMThkIn0&amp;locale=es&amp;pageId=mainPage&amp;viewMode=site&amp;vsi=af000bc0-42de-4ce5-9f7a-9245e1076ccb&amp;width=980#calendar"></use></svg></wix-svg>
+          <span id="check-out-value" class="ng-binding"></span>
+          <span translate="DD MM YYYY" ng-show="!filters.checkOut" class="ng-scope">DD MM YYYY</span>
+        </button>
+      </li>
+      <li class="adults" role="presentation">
+        <label id="adults-label" for="adults" stranslate="widget.ADULTS"><span class="strans">Adultos</span></label>
+        <div class="s-separator s-field spinner ng-isolate-scope ng-not-empty ng-valid" aria-valuenow="1" aria-valuetext="1" wix-spinner="" id="adults" tabindex="0" min="1" ng-model="filters.adults" bi="SET_ADULTS" aria-labelledby="adults-label" role="slider" aria-valuemin="1">
+  <span ng-show="isNumber()" class="value ng-binding">1</span>
+  <span ng-hide="isNumber()" class="placeholder ng-binding ng-hide"></span>
+  <span class="label ng-binding" ng-bind="label"></span>
+  <a role="button" tabindex="-1" href="https://static.parastorage.com/services/hotels-statics/1.597.0/#" ng-disabled="isMax()" ng-click="up($event)" class="up" aria-label="Increment"></a>
+  <a role="button" tabindex="-1" href="https://static.parastorage.com/services/hotels-statics/1.597.0/#" ng-disabled="isMin()" ng-click="down($event)" class="down" aria-label="Decrement" disabled="disabled"></a>
+</div>
+      </li>
+      <li class="children" role="presentation">
+        <label id="children-label" for="children" stranslate="widget.KIDS"><span class="strans">Niños</span></label>
+        <div class="s-separator s-field spinner ng-isolate-scope ng-not-empty ng-valid" aria-valuenow="0" aria-valuetext="0" wix-spinner="" id="children" tabindex="0" min="0" ng-model="filters.children" bi="SET_KIDS" aria-labelledby="children-label" role="slider" aria-valuemin="0">
+  <span ng-show="isNumber()" class="value ng-binding">0</span>
+  <span ng-hide="isNumber()" class="placeholder ng-binding ng-hide"></span>
+  <span class="label ng-binding" ng-bind="label"></span>
+  <a role="button" tabindex="-1" href="https://static.parastorage.com/services/hotels-statics/1.597.0/#" ng-disabled="isMax()" ng-click="up($event)" class="up" aria-label="Increment"></a>
+  <a role="button" tabindex="-1" href="https://static.parastorage.com/services/hotels-statics/1.597.0/#" ng-disabled="isMin()" ng-click="down($event)" class="down" aria-label="Decrement" disabled="disabled"></a>
+</div>
+      </li>
+      <li class="search" role="presentation">
+        <label>&nbsp;</label>
+        <button ng-click="filter($root.endpoint)" wix-bi="SEARCH" wix-bi-args="getBookingParams()" type="submit" tabindex="0" class="s-button">
+          <span stranslate="widget.SEARCH"><span class="strans">Buscar</span></span>
+        </button>
+      </li>
+    </ul>
+  </form>
+</div>
+</div><!-- end ngIf: $root.languageResolved -->
+    </div>
+
+    <!-- CDNified -->
+    <script src="./angular.min.js.descarga"></script>
+    <script src="./angular-resource.min.js.descarga"></script>
+    <script src="./angular-translate.min.js.descarga"></script>
+
+    <!--  -->
+<script src="./search-widget.js.descarga"></script>
+<!--  -->
+
+    <!--  -->
+
+<script>
+  (function () {
+
+  var originUrl = '//' + window.location.host;
+  var baseUrl = 'https://hotels.wixapps.net' || originUrl;
+  var staticsUrl = 'https://static.parastorage.com/services/hotels-statics/1.597.0/';
+  var backofficeUrl = 'http://www.wix.com/my-account/sites/0fa16f0b-5773-47b1-a3e8-b94646a64712/app/135aad86-9125-6074-7346-29dc6a3c9bcf';
+  var partialsUrl = staticsUrl.replace(/^.*:?\/\/+[^\/]*/, originUrl).replace('/services/', '/_partials/');
+  var translationsUrl = '//static.parastorage.com/services/hotels-translation-statics/1.199.0/';
+  var hotel = angular.module('hotel');
+
+  hotel.constant('clientConfig', {
+    originUrl: originUrl,
+    baseUrl: baseUrl,
+    apiUrl: baseUrl + '/api',
+    backofficeUrl: backofficeUrl,
+    staticsUrl: staticsUrl,
+    partialsUrl: partialsUrl,
+    startPremiumUrl: '',
+    biUrl: '//frog.wix.com',
+    returnUrl: '',
+    translationsUrl: translationsUrl,
+    visitorToken: '',
+    locale: 'es'
+  });
+  
+  hotel.constant('paymentsConfig', {
+    stripePublishableKey: '',
+    stripeConnectUrl: '',
+    paypalConnectUrl: '',
+    cashierCheckoutFormUrl: 'https://cashier.wix.com/render/cashier_payment_iframe?app=135aad86-9125-6074-7346-29dc6a3c9bcf'
+  });
+
+  hotel.constant('hotelConfig', {
+    minimalTimestamp: '1517686066064',
+    zoneId: 'Europe/Madrid',
+    hotelConfigured: ('false' === 'true'),
+    roomsCount: '0',
+    mode: 'live',
+    hotelState: parseJson('{"roomCount":0,"paymentOK":false,"settingsOK":false,"hotelReady":false,"upgraded":false,"trialDays":0,"roomUnitCount":null,"hasCoupons":null,"hasRates":null,"hasExtraCharges":null,"hasConfirmationEmail":null,"hasReservations":null,"hasRooms":null}')
+  });
+
+  hotel.constant('hotelState', parseJson('{"roomCount":0,"paymentOK":false,"settingsOK":false,"hotelReady":false,"upgraded":false,"trialDays":0,"roomUnitCount":null,"hasCoupons":null,"hasRates":null,"hasExtraCharges":null,"hasConfirmationEmail":null,"hasReservations":null,"hasRooms":null}'));
+
+  hotel.constant('siteConfig', parseJson('{"ownerUserId":"e7cd1987-7d38-46ff-a224-bd4c9165d18d","metasiteId":"0fa16f0b-5773-47b1-a3e8-b94646a64712","id":"fc94028e-3662-4c58-99b6-457185cf4466","environment":"production","isOwner":false,"visitorId":"aafe5cf4-da54-46a4-b1de-091c4567267a","uid":"","instanceId":"5a86c3ca-4168-4052-a798-fc194c898372","templateId":"13e1b80a-f2c1-96c5-a751-3a40801995b5","vendorPackageOffer":"superior_monthly","isWixStaff":false,"isPublished":true,"liveChatAppId":"14517e1a-3ff0-af98-408e-2bd6953c36a2","hasOneApp":null}'));
+
+  hotel.constant('features', parseJson('{"maxRoomUnits":9999,"enabledPaymentMethods":["Offline","Stripe","PayPal","MercadoPago"],"badgeHidden":false,"personalSaleVisible":false,"personalSaleDaysRemaining":0}'));
+
+  hotel.constant('experiments', experimentsUrlOverride(parseJson('{"UseNewHotelPolicies":"true","hotels.UseOpenDashboard":"false","hotels.UseSettingsForRefresher":"true","ReportCombinedInventoryToChannel":"true","UseCashierForStripe":"true","HotelRunnerBatchUpdate":"true","StorePaymentOptionsToExtAccounts":"false"}', true)));
+
+  hotel.service('customExperiments', function() {
+    return {
+    }
+  });
+
+  hotel.run(function($injector) {
+    if ($injector.has('bi')) {
+      $injector.get('bi').log({
+        _title: 'App_View'
+      });
+    }
+  });
+
+  function experimentsUrlOverride (experiments)  {
+    for (ex in experiments) {
+      if (experiments.hasOwnProperty(ex)) {
+        var re = new RegExp(ex + '=([^&]*)');
+        var matches = window.location.search.match(re);
+        if (matches && matches[1]) {
+          experiments[ex] = JSON.parse(matches[1]);
+        }
+      }
+    }
+    return experiments;
+  }
+
+  function parseJson (jsonString, convert) {
+    try {
+      var json = angular.fromJson(jsonString);
+      return convert ? fixJson(json) : json;
+    } catch (e) {}
+    return {};
+  }
+
+  function fixJson (fact) {
+    var bool = {'true': true, 'false': false};
+    angular.forEach(fact, function (val, key) {
+      if (val in bool) {
+        fact[key] = bool[val];
+      }
+    });
+    return fact;
+  }
+
+  })();
+</script>
+  
+
+</body></html>
